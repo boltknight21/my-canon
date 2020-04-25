@@ -50,7 +50,7 @@ is the same as*/
         canonBall.display();
         tanker.display();
         shot.display();
-        if (keyIsDown(UP_ARROW)) {
+        if (keyIsDown(DOWN_ARROW)) {
             shot.attach(canonBall.body)
         }
     }

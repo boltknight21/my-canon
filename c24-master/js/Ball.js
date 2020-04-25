@@ -5,7 +5,7 @@ class Ball {
         friction: 0,
         frictionStatic: 1,
         inertia: Infinity,
-        restitution: 2.0
+        restitution: 0.8
     }
 
     this.body = Bodies.circle(x,y,radius, options);
